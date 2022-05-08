@@ -1,0 +1,13 @@
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+.projects-listing {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-entry {
+  width: 45rem;
+  margin-bottom: 2rem;
+}

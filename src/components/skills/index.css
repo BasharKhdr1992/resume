@@ -1,0 +1,22 @@
+.skills-grid {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill {
+  padding: 0.8rem 1.6rem;
+  text-align: center;
+  background-color: hsl(207, 33%, 95%);
+  border-radius: 12px;
+  color: hsl(230, 11%, 40%);
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.skill:hover {
+  background-color: hsl(230, 29%, 20%);
+  color: white;
+}

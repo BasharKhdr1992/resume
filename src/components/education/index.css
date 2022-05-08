@@ -1,0 +1,21 @@
+.education {
+  border-top: 1px solid hsl(0, 0%, 98%);
+  padding-top: 1rem;
+}
+.education-entry {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.education-description {
+  width: 45rem;
+}
+
+.year {
+  margin-bottom: 0;
+}
+
+.underlined {
+  text-decoration: underline;
+}

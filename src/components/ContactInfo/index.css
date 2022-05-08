@@ -1,0 +1,44 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-personal-photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio-section {
+  width: 50%;
+}
+
+.personal-photo-container {
+  width: 40%;
+  text-align: right;
+}
+
+.personal-photo {
+  width: 18rem;
+  border-radius: 50%;
+}
+
+.bio {
+  font-size: 1.4rem;
+}
+
+.contact-info-section {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.col-place {
+  margin-right: 3rem;
+}
+
+.col-place,
+.col-contact-info {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
