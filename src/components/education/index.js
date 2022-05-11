@@ -14,6 +14,7 @@ const index = () => {
               href="https://github.com/HackYourFuture/curriculum"
               rel="noreferrer"
               className="underlined curriculum-link"
+              target={'_blank'}
             >
               Curriculum
             </a>
