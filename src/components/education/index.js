@@ -10,7 +10,13 @@ const index = () => {
         <div className="education-description">
           <h2 className="header">
             HackYourFuture,&nbsp;Web Development&nbsp;&nbsp;|&nbsp;&nbsp;
-            <span className="underlined">Curriculum</span>
+            <a
+              href="https://github.com/HackYourFuture/curriculum"
+              rel="noreferrer"
+              className="underlined curriculum-link"
+            >
+              Curriculum
+            </a>
           </h2>
           <p>
             7-month coding Bootcamp with modules on HTML, CSS, JavaScript,
