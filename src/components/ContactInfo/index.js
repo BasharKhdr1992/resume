@@ -41,12 +41,21 @@ const index = () => {
           </div>
         </div>
         <div className="col-contact-info">
-          <p>
-            +31687770045&nbsp;&nbsp;|&nbsp;&nbsp;
+          <p className="collapse">
+            +31687770045&nbsp;&nbsp;<span>|</span>&nbsp;&nbsp;
             <a href="mailto:bashar.khdr.DS.92@hotmail.com">
               bashar.khdr.DS.92@hotmail.com
             </a>
           </p>
+          <div className="mobile">
+            <h2 className="header mobile">Phone:</h2>
+            <p>+31687770045</p>
+            <h2 className="header mobile">Email Address</h2>
+            <a href="mailto:bashar.khdr.DS.92@hotmail.com">
+              bashar.khdr.DS.92@hotmail.com
+            </a>
+          </div>
+          <h2 className="header mobile">Social Profiles</h2>
           <p className="social-profiles">
             <a
               href="https://github.com/BasharKhdr1992"
