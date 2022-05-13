@@ -24,6 +24,7 @@
 
 .bio {
   font-size: 1.4rem;
+  padding-bottom: 0.5rem;
 }
 
 .contact-info-section {
@@ -41,4 +42,50 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .bio-personal-photo {
+    flex-direction: column-reverse;
+  }
+
+  .personal-photo-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .bio-section {
+    width: 100%;
+  }
+
+  .full-name {
+    text-align: center;
+  }
+
+  .bio {
+    border-bottom: 0.1rem solid hsl(231, 7%, 65%);
+  }
+
+  .contact-info-section {
+    flex-direction: column;
+  }
+
+  .col-place {
+    flex-direction: row;
+    margin-bottom: 1.2rem;
+    border-bottom: 0.1rem solid hsl(231, 7%, 65%);
+  }
+
+  .col-place,
+  .col-contact-info {
+    height: auto;
+  }
+
+  .mobile {
+    display: block;
+  }
 }

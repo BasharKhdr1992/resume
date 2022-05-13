@@ -18,3 +18,14 @@
   width: 7rem;
   margin-right: 1rem;
 }
+
+@media screen and (max-width: 1050px) {
+  .others {
+    flex-direction: column;
+  }
+
+  .others-entry {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

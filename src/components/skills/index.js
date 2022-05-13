@@ -26,8 +26,8 @@ const index = () => {
     <>
       <h1 className="header">Skills</h1>
       <div className="skills-grid">
-        {skills.map((skill) => {
-          return <Skill>{skill}</Skill>;
+        {skills.map((skill, index) => {
+          return <Skill key={index}>{skill}</Skill>;
         })}
       </div>
     </>

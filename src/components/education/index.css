@@ -23,3 +23,13 @@
 .curriculum-link {
   color: hsl(230, 29%, 20%);
 }
+
+@media screen and (max-width: 1050px) {
+  .education-entry {
+    flex-direction: column;
+  }
+
+  .education-description {
+    width: 100%;
+  }
+}

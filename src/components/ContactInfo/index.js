@@ -31,8 +31,14 @@ const index = () => {
       </div>
       <div className="contact-info-section">
         <div className="col-place">
-          <p className="city">Hengelo</p>
-          <p className="country">The Netherlands</p>
+          <div className="city-section">
+            <h2 className="header mobile">City</h2>
+            <p className="city">Hengelo</p>
+          </div>
+          <div className="country-section">
+            <h2 className="header mobile">Country</h2>
+            <p className="country">The Netherlands</p>
+          </div>
         </div>
         <div className="col-contact-info">
           <p>

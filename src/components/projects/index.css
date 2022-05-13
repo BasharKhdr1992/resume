@@ -11,3 +11,13 @@
   width: 45rem;
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 1050px) {
+  .projects {
+    flex-direction: column;
+  }
+
+  .projects-entry {
+    width: 100%;
+  }
+}
